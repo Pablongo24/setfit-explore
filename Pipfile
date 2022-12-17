@@ -9,7 +9,9 @@ datasets = ">=2.3.0"
 sentence-transformers = ">=2.2.1"
 evaluate = ">=0.3.0"
 optuna = ">=3.0.4"
-
+numpy = ">=1.23.5"
+torch = ">=1.13.1"
+tqdm = ">=4.64.1"
 
 [dev-packages]
 black = "*"
@@ -20,3 +22,7 @@ ipython = ">=8.7.0"
 
 [requires]
 python_version = "3.9"
+
+
+
+
