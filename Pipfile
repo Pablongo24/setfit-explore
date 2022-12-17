@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+setfit = ">=0.1.0"
+datasets = ">=2.3.0"
+sentence-transformers = ">=2.2.1"
+evaluate = ">=0.3.0"
+optuna = ">=3.0.4"
+
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.9"
